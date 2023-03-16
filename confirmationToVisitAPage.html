@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ask For Confirmation To Visit A Page</title>
+        <script>
+            function confirmar(){
+                return confirm('Esta página contiene contenido para mayores de 18 años. ¿Lo cumples?')
+            }
+        </script>
+    </head>
+    <body>
+        <a href="https://www.starwars.com/" onclick="return confirmar()">Link to Star Wars Official Website</a>
+    </body>
+</html>
